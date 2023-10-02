@@ -20,3 +20,4 @@ async def test_ask() -> None:
     await bot.close()
     print(json.dumps(response, indent=2))
     assert response
+
